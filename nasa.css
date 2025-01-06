@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+  }
+  h1, h2 {
+    text-align: center;
+  }
+  #search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  #search-input {
+    margin-right: 10px;
+  }
+  #current-image-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  #search-history {
+    list-style-type: none;
+    padding: 0;
+  }
+  #search-history li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  #search-history li:hover {
+    background-color: #ddd;
+  }
+  
